@@ -1,8 +1,14 @@
-# React + Vite
+# Grid Lights
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Grid Lights is a React application where users can interact with a 3x3 grid by selecting cells. When all cells are selected, they are unselected one by one in reverse order with a smooth animation.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Interactive Grid**: Clickable cells that change color when selected.
+- **Reverse Animation**: Cells unselect in reverse order of selection after all are selected.
+- **Visual Feedback**: Dynamic styles for selected and unselected cells.
+- **Responsive Design**: Adapts to different screen sizes.
+
+## Live Demo
+
+Check out live demo here: [Grid Lights Demo](https://praveen-gridlight-reactapp.netlify.app/)
